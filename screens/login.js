@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import {Button, Text, View, StyleSheet, SafeAreaView} from "react-native";
 import {StatusBar} from "expo-status-bar";
 import {useNavigation} from "@react-navigation/native";
+import * as SecureStore from "expo-secure-store";
 
 const LoginScreen = () => {
     const navigation = useNavigation()
@@ -21,7 +22,8 @@ const LoginScreen = () => {
             "user-top-read",
             "playlist-read-private",
             "playlist-read-collaborative",
-            "playlist-modify-public" // or "playlist-modify-private"
+            "playlist-modify-public",
+            "playlist-modify-private"
           ],
         usePKCE: false,
         redirectUri: 'exp://10.0.0.185:8081',
@@ -29,9 +31,13 @@ const LoginScreen = () => {
 
     useEffect(() => {
         if(response?.type === 'success'){
-            const {access_token} = response.params;
-            console.log('accessToken', access_token);
-            navigation.navigate('Main')
+             const fetchData = async () => {
+                const {access_token} = response.params;
+                await SecureStore.setItemAsync('access_token', access_token);
+                console.log('accessToken', access_token);
+                navigation.navigate('Main')
+              }
+              fetchData()
         }
     }, [response])
   return (
