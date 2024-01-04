@@ -1,9 +1,10 @@
 import {ResponseType, useAuthRequest} from "expo-auth-session";
 import {useEffect} from "react";
-import {Button, Text, View, StyleSheet, SafeAreaView} from "react-native";
+import {Text, SafeAreaView, Pressable, Image, ImageBackground} from "react-native";
 import {StatusBar} from "expo-status-bar";
 import {useNavigation} from "@react-navigation/native";
 import * as SecureStore from "expo-secure-store";
+import globalStyles from "../styles/global_styles"
 
 const LoginScreen = () => {
     const navigation = useNavigation()
@@ -41,17 +42,15 @@ const LoginScreen = () => {
         }
     }, [response])
   return (
-    <SafeAreaView style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <Button title={"Login"} onPress={()=>{promptAsync()}}/>
-      <StatusBar style="auto" />
-    </SafeAreaView>
+      <ImageBackground source={require('../assets/images/3.png')} imageStyle={{opacity:0.5}}>
+        <SafeAreaView style={[globalStyles.container]}>
+            <Text style={globalStyles.title}>Connect with Spotify to obtain a personalized playlist</Text>
+             <Pressable style={globalStyles.button} onPress={() => {promptAsync()}}>
+                  <Text style={globalStyles.buttonText}>Connect</Text>
+              </Pressable>
+        </SafeAreaView>
+      </ImageBackground>
+
   );
 }
-const styles = StyleSheet.create({
-    container: {
-        alignItems:"center",
-        justifyContent:"Center",
-    }
-})
 export default LoginScreen
