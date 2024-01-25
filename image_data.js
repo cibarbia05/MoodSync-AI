@@ -1,13 +1,13 @@
 const data = [
     {
+       title: "MoodSync AI",
        id: 1,
-       img: require('../spotify-playlist-ai/assets/images/logo.png'),
-       description: "Sentiment-Analysis Spotify Playlist Generator",
+       img: require('./assets/images/logo.png'),
     },
     {
        id: 2,
        img: require('./assets/images/1.png'),
-       description: "Obtain a facial-emotion scan for the perfect playlist",
+       description: "Obtain a text-sentiment analysis scan for the perfect playlist",
     },
     {
        id: 3,

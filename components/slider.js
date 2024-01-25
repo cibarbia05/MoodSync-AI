@@ -1,4 +1,4 @@
-import {Button, Text, View, StyleSheet, SafeAreaView, FlatList, Animated} from "react-native";
+import {View, StyleSheet, FlatList, Animated} from "react-native";
 import data  from "../image_data";
 import SliderItem from "./slider_item";
 import Pagination from "./pagination";
@@ -22,7 +22,6 @@ const Slider = () => {
         )(event);
     };
     const handleOnViewableItemsChanged = useRef(({viewableItems}) => {
-        // console.log("viewableItems", viewableItems);
         setIndex(viewableItems[0].index);
         }).current;
     const viewabilityConfig = useRef({
@@ -39,7 +38,6 @@ const Slider = () => {
             onScroll={handleOnScroll}
                   onViewableItemsChanged={handleOnViewableItemsChanged}
                   viewabilityConfig={viewabilityConfig}
-
         />
         <Pagination data={data} scrollX={scrollX} index={index}/>
     </View>
@@ -47,8 +45,8 @@ const Slider = () => {
 }
 const styles = StyleSheet.create({
     container: {
-        alignItems:"center",
-        justifyContent:"Center",
+        alignItems: 'center"',
+        justifyContent: 'center',
     }
-})
-export default Slider
+});
+export default Slider;

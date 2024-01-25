@@ -1,7 +1,6 @@
 import {ResponseType, useAuthRequest} from "expo-auth-session";
 import {useEffect} from "react";
-import {Text, SafeAreaView, Pressable, Image, ImageBackground} from "react-native";
-import {StatusBar} from "expo-status-bar";
+import {Text, SafeAreaView, Pressable, ImageBackground} from "react-native";
 import {useNavigation} from "@react-navigation/native";
 import * as SecureStore from "expo-secure-store";
 import globalStyles from "../styles/global_styles"
@@ -36,7 +35,7 @@ const LoginScreen = () => {
                 const {access_token} = response.params;
                 await SecureStore.setItemAsync('access_token', access_token);
                 console.log('accessToken', access_token);
-                navigation.navigate('Main')
+                navigation.navigate('Detection')
               }
               fetchData()
         }
@@ -53,4 +52,4 @@ const LoginScreen = () => {
 
   );
 }
-export default LoginScreen
+export default LoginScreen;

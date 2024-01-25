@@ -1,10 +1,4 @@
-import {
-    Text,
-    View,
-    StyleSheet,
-    Image,
-    Pressable
-} from "react-native";
+import {Text, View, StyleSheet, Image, Pressable} from "react-native";
 import {useNavigation} from "@react-navigation/native";
 import globalStyles from "../styles/global_styles"
 
@@ -28,27 +22,27 @@ const SliderItem = ({item}) => {
         <Image source={item.img}
                resizeMode="contain" style={styles.image}/>
         <View style={styles.content}>
-            <Text style={styles.description}>{item.description}</Text>
+            <Text style={styles.title}>{item.title}</Text>
+            <Text style={globalStyles.whiteTitle}>{item.description}</Text>
             {lastItemButton()}
         </View>
-
     </View>
   );
 }
 const styles = StyleSheet.create({
-    image:{
-        flex:0.6,
-        width:'100%',
-    },
-    content:{
-        flex:0.4,
-        alignItems:'center',
-    },
-    description:{
+    title:{
         textAlign: 'center',
-        fontSize: 24,
+        fontSize: 36,
         fontWeight: 'bold',
         color: 'white',
     },
-})
-export default SliderItem
+    image:{
+        flex: 0.6,
+        width: '100%',
+    },
+    content:{
+        flex: 0.4,
+        alignItems: 'center',
+    },
+});
+export default SliderItem;

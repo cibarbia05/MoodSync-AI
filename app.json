@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "spotify-playlist-ai",
-    "slug": "spotify-playlist-ai",
-    "version": "1.0.0",
+    "name": "MoodSync AI",
+    "slug": "MoodSyncAI",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cibarbia05.MoodSyncAI"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3fa37955-b831-4505-a253-199a4ccd56f0"
+      }
     }
   }
 }
