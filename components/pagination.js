@@ -24,20 +24,20 @@ const styles = StyleSheet.create({
         bottom: 30,
         flexDirection: 'row',
         marginHorizontal: 4,
-        width: '100',
+        width: '100%',
         alignItems: 'center',
-        justifyContent:'center',
+        justifyContent: 'center',
     },
     dot:{
         width: 12,
         height: 12,
         borderRadius: 6,
         marginHorizontal: 3,
-        backgroundColor:'#ccc'
+        backgroundColor: '#ccc',
     },
     dotActive:{
-        backgroundColor:'#414346'
+        backgroundColor: '#414346',
     }
 
-})
-export default Pagination
+});
+export default Pagination;
