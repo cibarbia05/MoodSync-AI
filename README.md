@@ -38,7 +38,7 @@ Start the Expo development server.
 
 Open the Expo Go app on your iOS or Android device.
 
-Scan the QR code displayed in the Expo DevTools in your browser.
+Scan the QR code displayed in the terminal.
 
 Wait for the app to load on your device.
 
