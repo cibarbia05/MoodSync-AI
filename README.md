@@ -24,7 +24,7 @@ Install Expo CLI globally using the following command:
 ## Installation
 Clone the MoodSync AI repository to your local machine.
 
-`git clone https://github.com/your-username/MoodSync-AI.git`
+`git clone https://github.com/cibarbia05/MoodSync-AI.git`
 
 Navigate to the project directory.
 
