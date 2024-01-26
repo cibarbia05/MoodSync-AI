@@ -1,7 +1,7 @@
 # MoodSync AI
 MoodSync AI is a React Native application designed to enhance your music listening experience by creating personalized Spotify playlists based on text-based sentiment analysis obtained through user input. This innovative app utilizes advanced natural language processing to understand and analyze the mood conveyed in your text, allowing it to curate playlists that perfectly match your emotional state.
 Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
+:-------------------------:|:-------------------------:|:-------------------------:
 ![01](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/9b72b73f-a61a-47e2-8396-1da5393f7837)  |   ![02](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/4e59f0af-8503-4d2c-b18e-99563817c6a4)  |   ![03](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/b6d1d950-407b-43b6-a9c2-bef513ca5b10)
 
 
