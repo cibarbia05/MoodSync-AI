@@ -3,14 +3,8 @@ MoodSync AI is a React Native application designed to enhance your music listeni
 
 
 | Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
+|     :---:      |     :---:      |     :---:      |
 | ![01](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/9b72b73f-a61a-47e2-8396-1da5393f7837)   | ![02](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/4e59f0af-8503-4d2c-b18e-99563817c6a4)     |![03](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/b6d1d950-407b-43b6-a9c2-bef513ca5b10)    |
-| git diff     | git diff       | git diff      |
-
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:|:-------------------------:
-![01](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/9b72b73f-a61a-47e2-8396-1da5393f7837)  |   ![02](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/4e59f0af-8503-4d2c-b18e-99563817c6a4)  |   ![03](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/b6d1d950-407b-43b6-a9c2-bef513ca5b10)
-
 
 
 ## Features
