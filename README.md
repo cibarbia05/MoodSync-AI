@@ -33,7 +33,7 @@ Navigate to the project directory.
 
 ```cd MoodSync-AI```
 
-Create a .env file in your project's root directory with the variables CLIENT_ID and CLIENT_SECRET and their corresponding values.
+Create a .env file in the MoodSync-AI directory with the variables CLIENT_ID and CLIENT_SECRET and their corresponding values.
 
 ```
 CLIENT_ID=<Your Client Id>
