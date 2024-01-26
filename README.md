@@ -10,31 +10,37 @@ MoodSync AI is a React Native application designed to enhance your music listeni
 
 **User-Friendly Interface:** The app boasts an intuitive and visually appealing design, making it easy for users to interact with and enjoy the full range of features.
 
+## Prerequisites
+Make sure you have Node.js installed on your machine. You can download it [here]([url](https://nodejs.org/en)).
+
+Install Expo CLI globally using the following command:
+
+`npm install -g expo-cli`
+
 ## Installation
-1. Clone the repository to your local machine.
+Clone the MoodSync AI repository to your local machine.
 
-``
-git clone https://github.com/your-username/MoodSync-AI.git
-``
-1. Navigate to the project directory.
+`git clone https://github.com/your-username/MoodSync-AI.git`
 
-``
-cd MoodSync-AI
-``
-1. Install dependencies using your preferred package manager.
+Navigate to the project directory.
 
-``
-npm install
-or
-yarn install
-``
-1. Run the application on your emulator or device.
+`cd MoodSync-AI`
 
-``
-npx react-native run-android
-or
-npx react-native run-ios
-``
+Install dependencies using Expo CLI.
+
+`expo install`
+
+## Running the App
+Start the Expo development server.
+
+`expo start`
+
+Open the Expo Go app on your iOS or Android device.
+
+Scan the QR code displayed in the Expo DevTools in your browser.
+
+Wait for the app to load on your device.
+
 
 ## Usage
 Launch the MoodSync AI app on your device.
