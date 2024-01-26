@@ -32,13 +32,13 @@ Navigate to the project directory.
 
 Install dependencies using Expo CLI.
 
-`expo install`
+`npx expo install`
 
 
 # Running the App
 Start the Expo development server.
 
-`expo start`
+`npx expo start`
 Open the Expo Go app on your iOS or Android device.
 
 Scan the QR code displayed in the Expo DevTools in your browser.
