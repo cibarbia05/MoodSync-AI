@@ -1,6 +1,12 @@
 # MoodSync AI
 MoodSync AI is a React Native application designed to enhance your music listening experience by creating personalized Spotify playlists based on text-based sentiment analysis obtained through user input. This innovative app utilizes advanced natural language processing to understand and analyze the mood conveyed in your text, allowing it to curate playlists that perfectly match your emotional state.
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![01](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/9b72b73f-a61a-47e2-8396-1da5393f7837)  |  ![02](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/4e59f0af-8503-4d2c-b18e-99563817c6a4)
+
+
+
 ## Features
 **Sentiment Analysis:** MoodSync AI employs state-of-the-art natural language processing algorithms to analyze the sentiment of the user's input text.
 
@@ -8,10 +14,9 @@ MoodSync AI is a React Native application designed to enhance your music listeni
 
 **Personalized Playlists**: Based on the sentiment analysis results, MoodSync AI generates personalized Spotify playlists tailored to your current mood.
 
-**User-Friendly Interface:** The app boasts an intuitive and visually appealing design, making it easy for users to interact with and enjoy the full range of features.
 
 ## Prerequisites
-Make sure you have Node.js installed on your machine. You can download it [here]([url](https://nodejs.org/en)).
+Make sure you have Node.js installed on your machine. You can download it [here](https://nodejs.org/en).
 
 Install Expo CLI globally using the following command:
 
@@ -34,12 +39,11 @@ Install dependencies using Expo CLI.
 Start the Expo development server.
 
 `expo start`
+Open the Expo Go app on your iOS or Android device.
 
-+ Open the Expo Go app on your iOS or Android device.
+Scan the QR code displayed in the Expo DevTools in your browser.
 
-+ Scan the QR code displayed in the Expo DevTools in your browser.
-
-+ Wait for the app to load on your device.
+Wait for the app to load on your device.
 
 
 ## Usage
