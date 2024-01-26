@@ -30,10 +30,6 @@ Navigate to the project directory.
 
 `cd MoodSync-AI`
 
-Install dependencies using Expo CLI.
-
-`npx expo install`
-
 
 # Running the App
 Start the Expo development server.
