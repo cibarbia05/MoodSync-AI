@@ -4,7 +4,7 @@ import {Text, SafeAreaView, Pressable, ImageBackground} from "react-native";
 import {useNavigation} from "@react-navigation/native";
 import * as SecureStore from "expo-secure-store";
 import globalStyles from "../styles/global_styles"
-
+import {CLIENT_ID, CLIENT_SECRET} from '@env';
 const LoginScreen = () => {
     const navigation = useNavigation()
     const discovery = {
@@ -13,8 +13,8 @@ const LoginScreen = () => {
     }
     const [request, response, promptAsync] = useAuthRequest({
         responseType: ResponseType.Token,
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
+        clientId: CLIENT_ID,
+        clientSecret: CLIENT_SECRET,
         scopes: [
             "user-read-email",
             "user-library-read",
