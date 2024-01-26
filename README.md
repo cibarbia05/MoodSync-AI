@@ -35,6 +35,7 @@ Navigate to the project directory.
 Start the Expo development server.
 
 `npx expo start`
+
 Open the Expo Go app on your iOS or Android device.
 
 Scan the QR code displayed in the Expo DevTools in your browser.
