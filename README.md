@@ -3,8 +3,7 @@ MoodSync AI is a React Native application designed to enhance your music listeni
 
 |  |  |  |
 |     :---:      |     :---:      |     :---:      |
-| ![01](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/9b72b73f-a61a-47e2-8396-1da5393f7837)   | ![02](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/4e59f0af-8503-4d2c-b18e-99563817c6a4)     |![03](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/b6d1d950-407b-43b6-a9c2-bef513ca5b10)    |
-
+| ![01](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/884b2c55-d10a-4ef2-9d22-89cebee543ee)   | ![02](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/e5208d6e-9037-491c-adff-fdaced2529cf)     |![03](https://github.com/cibarbia05/MoodSync-AI/assets/84081765/848574ad-faa2-4de6-98ec-3631989f958d)    |
 
 # Features
 **Sentiment Analysis:** MoodSync AI employs state-of-the-art natural language processing algorithms to analyze the sentiment of the user's input text.
