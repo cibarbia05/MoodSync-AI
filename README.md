@@ -35,20 +35,20 @@ Start the Expo development server.
 
 `expo start`
 
-Open the Expo Go app on your iOS or Android device.
++ Open the Expo Go app on your iOS or Android device.
 
-Scan the QR code displayed in the Expo DevTools in your browser.
++ Scan the QR code displayed in the Expo DevTools in your browser.
 
-Wait for the app to load on your device.
++ Wait for the app to load on your device.
 
 
 ## Usage
-Launch the MoodSync AI app on your device.
+1. Launch the MoodSync AI app on your device.
 
-Log in or connect your Spotify account within the app.
+2. Log in or connect your Spotify account within the app.
 
-Enter text or a message expressing your current mood.
+3. Enter text or a message expressing your current mood.
 
-Click the "Generate Playlist" button, and let MoodSync AI work its magic.
+4. Click the "Generate Playlist" button, and let MoodSync AI work its magic.
 
-Enjoy your personalized Spotify playlist!
+5. Enjoy your personalized Spotify playlist!
