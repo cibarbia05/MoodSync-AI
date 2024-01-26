@@ -19,7 +19,7 @@ Make sure you have Node.js installed on your machine. You can download it [here]
 
 Install Expo CLI globally using the following command:
 
-`npm install -g expo-cli`
+`npm install`
 
 # Installation
 Clone the MoodSync AI repository to your local machine.
