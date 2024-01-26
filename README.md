@@ -23,8 +23,10 @@ Install Expo CLI globally using the following command:
 Create a FREE Spotify account and [sign into your developer account](https://developer.spotify.com/) to obtain the CLIENT_ID and CLIENT_SECRET
 Create a .env file in your project's root directory with the variables CLIENT_ID and CLIENT_SECRET and their corresponding values so that the app can utlize Spotify's API properly
 
-`CLIENT_ID=<Your Client Id>
-SECRET_ID=<Your Secret Id>`
+<code>
+CLIENT_ID=<Your Client Id>
+SECRET_ID=<Your Secret Id>
+<code/>
 
 
 # Installation
