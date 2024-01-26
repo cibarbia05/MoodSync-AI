@@ -13,8 +13,8 @@ const LoginScreen = () => {
     }
     const [request, response, promptAsync] = useAuthRequest({
         responseType: ResponseType.Token,
-        clientId: '1dee71455c554af4af36488ba43b6fed',
-        clientSecret: '3e7da180e618498187f6b02e32ee2dba',
+        clientId: process.env.CLIENT_ID,
+        clientSecret: process.env.CLIENT_SECRET,
         scopes: [
             "user-read-email",
             "user-library-read",
